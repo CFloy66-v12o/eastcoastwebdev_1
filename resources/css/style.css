@@ -1,0 +1,94 @@
+@charset "UTF-8"
+
+html {
+  font-size: 18px;
+
+}
+
+@media only screen and (min-width: 200px) {
+  body {
+    margin: 1rem .8rem .8rem .8rem;
+  }
+  header {
+    margin: 1rem .8rem .8rem .8rem;
+  }
+  .company p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+
+/*header*/
+header {
+  display: inline-flex;
+  height: 40rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 18%;
+  background-color: #3e9989;
+}
+
+
+
+
+/* company */
+.company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: fantasy;
+  border-radius: 18%;
+  height: 40rem;
+  font-size: 3rem;
+}
+
+
+
+.company-logo img:hover {
+  border: 3px solid black;
+  border-radius: 18%;
+  background-color: white;
+}
+
+.company-logo img {
+  height: 20rem;
+  position: relative;
+  z-index: 1;
+}
+
+.company p:hover {
+  color: #1a1aff;
+  font-size: 2.4rem;
+  cursor: copy;
+}
+
+/* copyright */
+.copyright  {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+
+}
+
+
+.copyright p {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #2a12cc;
+}
+
+.copyright p:hover {
+  font-size: 2.4rem;
+  color: #c91041;
+  position: relative;
+  bottom: 4px;
+}
